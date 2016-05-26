@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>client</title>
+    <title>Oh So Swift</title>
   </head>
   <body>
 
     <main>Loading...</main>
 
-    <script src="lib/es6-shim.min.js"></script>
-    <script src="lib/angular2-polyfills.js"></script>
-    <script src="lib/traceur-runtime.js"></script>
-    <script src="lib/system-csp-production.src.js"></script>
-    <script src="lib/Reflect.js"></script>
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/angular2-polyfills/angular2-polyfills.js"></script>
+    <script src="node_modules/traceur/traceur-runtime.js"></script>
+    <script src="node_modules/systemjs/dist/system-csp-production.src.js"></script>
+    <script src="node_modules/reflect/Reflect.js"></script>
 
     <script>
       System.config({defaultJSExtensions: true});
     </script>
 
-    <script src="lib/angular2.js"></script>
-    <script src="lib/Rx.js"></script>
+    <script src="node_modules/lib/angular.min.js"></script>
+    <script src="node_modules//Rx.js"></script>
 
     <script>
       System.import('index').catch(console.log.bind(console));

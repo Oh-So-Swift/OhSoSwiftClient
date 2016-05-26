@@ -1,0 +1,8 @@
+{
+  "name": "oh-so-swift",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular2": "~x.x.x"
+  },
+  "private": true
+}
